@@ -12,7 +12,6 @@ const isCharAscii = require("./lib/isCharAscii")
  */
 
 function command(input) {
-    // console.time("command");
     let output = ""; // string for command
     let colonLocation = null;
 
@@ -43,10 +42,9 @@ function command(input) {
     }
 
     output = output.trim(); // trim command
-    // console.timeEnd("command");
     return output;
 }
 
-console.log(command("find: name=Nabeel Ahmed")) // test
+// console.log(command("find: name=Nabeel Ahmed")) // test
 
 module.exports = command;

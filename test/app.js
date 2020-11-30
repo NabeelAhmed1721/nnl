@@ -1,6 +1,6 @@
-const parser = require('./src/parser');
+const { argument } = require('../src');
 
-console.log('results:', parser(`
+console.log('results:', argument(`
 
     > find:
         name= Nabeel Ahmed |

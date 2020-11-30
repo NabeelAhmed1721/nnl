@@ -8,7 +8,6 @@
  */
 
 function normalize(input) {
-    // console.time("normalize");
     let output = ""; // output string
     for (let i = 0; i < input.length; i++ ) { // cycle through each char
         let char = input[i]; // current character in string
@@ -20,7 +19,6 @@ function normalize(input) {
         output += input[i]; // add char to output
     }
     output = output.trim(); // trim any padding space
-    // console.timeEnd("normalize");
     return output // return output
 }
 

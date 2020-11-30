@@ -15,7 +15,6 @@ const isCharAscii = require("./lib/isCharAscii")
  */
 
 function segment(input) {
-    // console.time("segment");
     let output = [];
     let readFrom = 0; // variable repersents the index to begin parsing a query to prevent recording an unwated colon
     for ( let i = 0; i < input.length; i++ ) {
@@ -61,10 +60,9 @@ function segment(input) {
             output.push(query); // finally push parsed query into output
         }
     }
-    // console.timeEnd("segment");
     return output;
 }
 
-console.log(segment(`>: > find:name=Nabeel Ahmed>update:age=16`)) // test
+// console.log(segment(`>: > find:name=Nabeel Ahmed>update:age=16`)) // test
 
 module.exports = segment

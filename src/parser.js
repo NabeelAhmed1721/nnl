@@ -1,4 +1,6 @@
-const normalize = require('./normalize');
+// add custom error detection
+
+const normalize = require('./lib/normalize');
 const segment = require('./segment');
 const command = require('./command');
 const argument = require('./argument');
@@ -17,7 +19,6 @@ const argument = require('./argument');
  */
 
 function parser(input) {
-    console.time("new parser");
     input = normalize(input); // normalize input
     let output = [];
 
@@ -34,7 +35,6 @@ function parser(input) {
 
         output.push(result)
     }
-    console.timeEnd("new parser");
     return output;
 }
 

@@ -19,7 +19,6 @@ const isCharAscii = require("./lib/isCharAscii")
  */
 
 function argument(input) {
-    // console.time("argument");
     let output = [];
     let readFrom = 0; // store where to read next argument. To prevent reading equal signs within values
     
@@ -78,7 +77,6 @@ function argument(input) {
             output.push(argument); // push parsed argument to output
         }
     }
-    // console.timeEnd("argument");
     return output;
 }
 
