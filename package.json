@@ -4,9 +4,15 @@
     "jest": "^26.6.3"
   },
   "name": "nnl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Official Parser for Nabeel's Notation Language (nnl)",
   "main": "./src/index.js",
+  "keywords": [
+    "nnl",
+    "notation",
+    "parser",
+    "query"
+  ],
   "repository": "https://github.com/NabeelAhmed1721/nnl.git",
   "author": "Nabeel Ahmed <nabeelahmed1721@gmail.com>"
 }

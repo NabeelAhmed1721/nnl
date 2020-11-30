@@ -1,15 +1,7 @@
-const { argument } = require('../src');
+const { parser } = require('../src');
 
-console.log('results:', argument(`
+console.log('results:', parser(`
 
-    > find:
-        name= Nabeel Ahmed |
-        id= 123 |
-        lol= 10 |
-    > insert:
-        age= 17 |
-    > update:
-        age= 10 |
-        ip= 10.10.0.30.3
+    > Message: text= Hello World
 
 `))
