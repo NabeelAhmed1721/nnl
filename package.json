@@ -6,7 +6,7 @@
   "name": "nnl",
   "version": "1.0.0",
   "description": "The Official Parser for Nabeel's Notation Language (nnl)",
-  "main": "index.js",
+  "main": "./src/index.js",
   "repository": "https://github.com/NabeelAhmed1721/nnl.git",
   "author": "Nabeel Ahmed <nabeelahmed1721@gmail.com>"
 }
