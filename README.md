@@ -80,14 +80,14 @@ Like with most things, there are good practices that make using it more efficien
 
   ```
   > move:
-  			distance= 10 		|
-  			speed= 		20 		|
-  			easeIn= 	true 	|
+      distance= 10    |
+      speed=    20    |
+      easeIn=   true  |
   > wait:
-  			min=			2			|
+      min=      2	    |
   > rotate:
-  			angle= 		-90 	|
-  			speed= 		10		|
+      angle=    -90   |
+      speed=    10    |
   ```
 
 
