@@ -2,6 +2,24 @@
 
 >  A simple and multipurpose notation/query language.
 
+# Installation
+
+```
+npm install nnl --save
+// or
+yarn add nnl
+```
+
+# Quick Start
+
+```
+const { parser } = require('nnl');
+
+let result = parser('find: name= Jordan Carter')
+
+console.log(result)
+```
+
 ### Hello World Demo
 
 *Input*: `> Message: text= Hello World `
@@ -96,3 +114,10 @@ You can escape certain special characters with a `\` or `\\` (if you are using a
 - [ ] Plugin support
 - [ ] Library Logo
 
+
+
+To contribute, please refer to the [Github repository](https://github.com/NabeelAhmed1721/nnl) ;).
+
+# License
+
+MIT
