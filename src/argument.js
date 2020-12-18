@@ -21,6 +21,10 @@ const isCharAscii = require("./lib/isCharAscii")
 function argument(input) {
     let output = [];
     let readFrom = 0; // store where to read next argument. To prevent reading equal signs within values
+
+    if ( input == null ) { // if input is null return empty array
+        return output;
+    }
     
     for ( let i = 0; i < input.length; i++ ) {
         let char = input[i];

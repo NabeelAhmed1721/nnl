@@ -17,6 +17,11 @@ const isCharAscii = require("./lib/isCharAscii")
 function segment(input) {
     let output = [];
     let readFrom = 0; // variable repersents the index to begin parsing a query to prevent recording an unwated colon
+
+    if ( input == null ) { // if input is null return empty array
+        return output;
+    }
+
     for ( let i = 0; i < input.length; i++ ) {
         let char = input[i]; // current character in input string
 

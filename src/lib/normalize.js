@@ -9,6 +9,11 @@
 
 function normalize(input) {
     let output = ""; // output string
+
+    if ( input == null ) { // if input is null return empty string
+        return output;
+    }
+    
     for (let i = 0; i < input.length; i++ ) { // cycle through each char
         let char = input[i]; // current character in string
 
